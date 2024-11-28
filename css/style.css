@@ -1,0 +1,93 @@
+:root {
+  --color-brand: #2b7fff;
+  --color-basic: #011c44;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  color: var(--color-basic);
+  font-family: Roboto, monospace;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+address {
+  font-style: normal;
+}
+.logo {
+  color: var(--color-brand);
+  font-family: play, monospace;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 0.95;
+  text-transform: capitalize;
+}
+
+.header-link {
+  font-size: 18px;
+  text-decoration: none;
+}
+.header-link:hover {
+  color: var(--color-brand);
+  font-size: 18px;
+  font-weight: 600;
+}
+.hero {
+  color: var(--color-brand);
+  font-family: play, monospace;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 114px;
+  text-transform: capitalize;
+}
+
+.button {
+  background-color: var(--color-brand);
+  color: #ffffff;
+  border: 2px solid var(--color-brand);
+  border-radius: 32px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.17;
+  cursor: pointer;
+}
+
+.under-button {
+  color: #4a4a4a;
+  font-size: 12px;
+  font-weight: 1.5;
+}
+
+.section-title {
+  font-family: play, monospace;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.section-title .color-title {
+  color: var(--color-brand);
+}
+
+.text-beauty {
+  font-weight: 600;
+}
+
+.procedures {
+  color: #ffffff;
+  line-height: 1.18;
+  cursor: pointer;
+}
+
+.footer-text {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.17;
+  cursor: pointer;
+}
+
+.address-copyright {
+  color: #747272;
+  font-size: 15px;
+}
